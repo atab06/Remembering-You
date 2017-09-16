@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" nextobjectid="7">
+ <properties>
+  <property name="name" value="main"/>
+ </properties>
+ <tileset firstgid="1" name="floor" tilewidth="32" tileheight="32" tilecount="192" columns="16">
+  <image source="Forest Tiles/floor.png" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="193" name="forest1" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="Forest Tiles/forest1.png" width="512" height="512"/>
+ </tileset>
+ <layer name="GroundData" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwwEJAAAMBKGD7995QabgqqmqqvruAU/eCo0=
+  </data>
+ </layer>
+ <layer name="DecorationData" width="30" height="30">
+  <properties>
+   <property name="name" value="main"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF9AbqjAwMOoz0txdkpzoV7BWksduFqGw+rd07CkgHo3FCOaB2PqE2GKzuG6zuQgaj+QMTjIbJ8ALk5kNy0wE12j7DHVCzbBwN76EHAGAXAdk=
+  </data>
+ </layer>
+ <layer name="FurnitureData" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztl80NgCAMhesJN8D9h8IRZAM9CgdDQ/gp0JoYeQl5HsTytUWCWgBWNxTBLwg6gT4v5dqNjegWxT2APi/lMY/nKDnmpbyPXSd48Tel9MTGvLY6a1y+Nm/xGvRM5fXr48wDlTfupVFJ1reUI8n6lnL0h37Gmrx1Xo693MPLsZdnfef/SkI5XgMhT9xnoFeKN+fS52/Oa3XfG+K28HJyt/By9vvXeONeb/E4Xu/9ZtR77zejfgNkPHqA
+  </data>
+ </layer>
+ <objectgroup name="ObjectData">
+  <object id="4" name="SpawnPoint" x="650" y="734" width="32" height="32">
+   <properties>
+    <property name="name" value="start"/>
+   </properties>
+  </object>
+  <object id="6" name="portal" x="384" y="0" width="64" height="32"/>
+ </objectgroup>
+</map>
